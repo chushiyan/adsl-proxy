@@ -9,7 +9,7 @@ ADSL_ERROR_CYCLE = 10
 ADSL_BASH = 'adsl-stop;adsl-start'
 
 # 代理运行端口
-PROXY_PORT = 3435
+PROXY_PORT = 8888
 
 # 客户端唯一标识
 CLIENT_NAME = 'adsl09'
@@ -18,10 +18,10 @@ CLIENT_NAME = 'adsl09'
 ADSL_IFNAME = 'ppp0'
 
 # Redis数据库IP
-REDIS_HOST = '47.107.227.145'
+REDIS_HOST = '127.0.0.1'
 
 # Redis数据库密码, 如无则填None
-REDIS_PASSWORD = 'diF_76_daU($#dKi)*7&1285#@'
+REDIS_PASSWORD = None
 
 # Redis数据库端口
 REDIS_PORT = 6379
